@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Application build succesful'
+                echo 'Started by SCM change'
             }
         }
         stage('Test') {
